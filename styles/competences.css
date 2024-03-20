@@ -1,0 +1,36 @@
+.content{
+	background-color: transparent;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.content-box{
+    background-color: rgba(255, 255, 255, 0.4);
+	border-color: aliceblue;
+	border-radius: 8px;
+	color: aliceblue;
+	padding: 10px;
+	display: inline-block;
+	margin: 20px;
+	width: auto;
+}
+
+
+.competences{
+	text-align: left;
+}
+
+.table-competence{
+    border-collapse: collapse;
+	margin: 30px;
+}
+.table-competence th{
+    border: 1px solid;
+    padding: 10px;
+}
+.table-competence td{
+    border: 1px solid;
+    padding: 10px;
+}

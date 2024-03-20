@@ -1,0 +1,90 @@
+.content{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: auto;
+}
+
+.info{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: aliceblue;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px;
+    width: auto;
+}
+.info img{
+    max-width: 50vw;
+    width: 100%;
+}
+
+.description{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    width: 50vw;
+    font-size: large;
+}
+.description h1{
+    text-align: center;
+}
+.description p{
+    margin-left: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons a{
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #5653fd, rgb(13, 138, 255) 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    color: #FFFFFF;
+    margin: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.description a:hover{
+    transform: scale(1.05);
+}
+
+.competences{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    width: 50vw;
+}
+.competences h1{
+    text-align: center;
+}
+
+.table-competence{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-competence th{
+    border: 1px solid;
+    padding: 10px;
+}
+.table-competence td{
+    border: 1px solid;
+    padding: 10px;
+    
+}

@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(rgb(13, 138, 255),black );
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+	text-decoration: none;
+	color: #fff;
+}
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.header ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background:rgb(10, 55, 95);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.header ul li:hover::after {
+    width: 100%;
+}
